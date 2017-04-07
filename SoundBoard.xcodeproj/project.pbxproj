@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4B8392D6AC4FB6EC63F439E6 /* SoundBoardSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B839DE90CA05CC45A0A7D04 /* SoundBoardSecondViewController.swift */; };
 		4B8394458ABFEE01F64A8B3F /* SoundBoardFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8391D584EA5AC5267A324B /* SoundBoardFirstViewController.swift */; };
+		D61005801E97986A0002FC32 /* SoundBoardThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D610057F1E97986A0002FC32 /* SoundBoardThirdViewController.swift */; };
 		D6A967821E4E284A00D5E8CA /* SoundBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A967811E4E284A00D5E8CA /* SoundBoard.swift */; };
 		D6A967891E4E284A00D5E8CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6A967871E4E284A00D5E8CA /* Main.storyboard */; };
 		D6A9678B1E4E284A00D5E8CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6A9678A1E4E284A00D5E8CA /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* Begin PBXFileReference section */
 		4B8391D584EA5AC5267A324B /* SoundBoardFirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundBoardFirstViewController.swift; sourceTree = "<group>"; };
 		4B839DE90CA05CC45A0A7D04 /* SoundBoardSecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundBoardSecondViewController.swift; sourceTree = "<group>"; };
+		D610057F1E97986A0002FC32 /* SoundBoardThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundBoardThirdViewController.swift; sourceTree = "<group>"; };
 		D6A9677E1E4E284A00D5E8CA /* SoundBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6A967811E4E284A00D5E8CA /* SoundBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundBoard.swift; sourceTree = "<group>"; };
 		D6A967881E4E284A00D5E8CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -79,8 +81,9 @@
 		4B839AB0973D1F914D97EA20 /* de.mayflower.soundboard */ = {
 			isa = PBXGroup;
 			children = (
-				4B8391D584EA5AC5267A324B /* SoundBoardFirstViewController.swift */,
 				4B839DE90CA05CC45A0A7D04 /* SoundBoardSecondViewController.swift */,
+				4B8391D584EA5AC5267A324B /* SoundBoardFirstViewController.swift */,
+				D610057F1E97986A0002FC32 /* SoundBoardThirdViewController.swift */,
 			);
 			path = de.mayflower.soundboard;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6A967821E4E284A00D5E8CA /* SoundBoard.swift in Sources */,
+				D61005801E97986A0002FC32 /* SoundBoardThirdViewController.swift in Sources */,
 				4B8394458ABFEE01F64A8B3F /* SoundBoardFirstViewController.swift in Sources */,
 				4B8392D6AC4FB6EC63F439E6 /* SoundBoardSecondViewController.swift in Sources */,
 			);
@@ -517,6 +521,7 @@
 				D6A967AA1E4E284A00D5E8CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6A967AB1E4E284A00D5E8CA /* Build configuration list for PBXNativeTarget "SoundBoardTests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +530,7 @@
 				D6A967AD1E4E284A00D5E8CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6A967AE1E4E284A00D5E8CA /* Build configuration list for PBXNativeTarget "SoundBoardUITests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +539,7 @@
 				D6A967B01E4E284A00D5E8CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
