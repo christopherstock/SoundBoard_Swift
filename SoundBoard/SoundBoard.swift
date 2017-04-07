@@ -2,7 +2,9 @@
     import UIKit
 
     /*******************************************************************************************************************
-    *   This is the main application delegate.
+    *   This is the main application delegate. It creates the window where your app's content is drawn
+    *   and provides a place to respond to state transitions within the app. The file creates the entry point
+    *   to your app and a run loop that delivers input events to your app.
     *
     *   @author  Christopher Stock
     *   @version 0.0.1
