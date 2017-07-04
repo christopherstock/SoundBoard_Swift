@@ -7,7 +7,7 @@
     *   @author  Christopher Stock
     *   @version 0.0.1
     *******************************************************************************************************************/
-    class SecondViewController: UIViewController
+    class SecondViewController : UIViewController
     {
         /***************************************************************************************************************
         *   Being invoked when the view is loaded.
