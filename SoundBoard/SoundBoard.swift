@@ -6,6 +6,9 @@
     *   and provides a place to respond to state transitions within the app. The file creates the entry point
     *   to your app and a run loop that delivers input events to your app.
     *
+    *   TODO WEAK Assert explicit self everywhere!
+    *   TODO WEAK Assert explicit ; everywhere!
+    *
     *   @author  Christopher Stock
     *   @version 0.0.1
     *******************************************************************************************************************/
