@@ -120,7 +120,7 @@
             
             self.title1.text = "The Default Text"
         }
-        
+            
         /***************************************************************************************************************
         *   Being invoked when a touch gesture is recognized on the image view.
         *
