@@ -27,6 +27,9 @@
         /** References the image view */
         @IBOutlet weak var photoImageView: UIImageView!
 
+        /** References the rating control horizontal stack view control */
+        @IBOutlet weak var ratingControll: SoundBoardRatingControl!
+        
         /***************************************************************************************************************
         *   Being invoked when the view did load.
         ***************************************************************************************************************/
