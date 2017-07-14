@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97a2a8f8-d4b4-4dc8-bcd6-37d4b02f5b6f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SoundBoard/de.mayflower.soundboard/SoundBoardRatingControl.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SoundBoard/Assets.xcassets/Rating Stars/emptyStar.imageset/ICC_emptyStar_2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SoundBoard/Assets.xcassets/Rating Stars/filledStar.imageset/ICC_filledStar_2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SoundBoard/Assets.xcassets/Rating Stars/highlightedStar.imageset/ICC_highlightedStar_2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SoundBoard/Assets.xcassets/Rating Stars/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SoundBoard/Assets.xcassets/Rating Stars/emptyStar.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SoundBoard/Assets.xcassets/Rating Stars/filledStar.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SoundBoard/Assets.xcassets/Rating Stars/highlightedStar.imageset/Contents.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SoundBoard.xcodeproj/project.xcworkspace/xcuserdata/stock-mac.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/SoundBoard.xcodeproj/project.xcworkspace/xcuserdata/stock-mac.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SoundBoard.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/SoundBoard.xcodeproj/project.pbxproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SoundBoard/Base.lproj/Main.storyboard" afterPath="$PROJECT_DIR$/SoundBoard/Base.lproj/Main.storyboard" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SoundBoard/de.mayflower.soundboard/SoundBoardFirstViewController.swift" afterPath="$PROJECT_DIR$/SoundBoard/de.mayflower.soundboard/SoundBoardFirstViewController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SoundBoard/de.mayflower.soundboard/SoundBoardRatingControl.swift" afterPath="$PROJECT_DIR$/SoundBoard/de.mayflower.soundboard/SoundBoardRatingControl.swift" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,30 +31,7 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SoundBoardFirstViewController.swift" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SoundBoard/de.mayflower.soundboard/SoundBoardFirstViewController.swift">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-              <folding>
-                <marker date="1500032053000" expanded="true" signature="5820:6203" ph="/*...*/" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SoundBoardSecondViewController.swift" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SoundBoard/de.mayflower.soundboard/SoundBoardSecondViewController.swift">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -106,7 +88,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Cidr.FilesView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -153,6 +134,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Cidr.FilesView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,7 +211,8 @@
       <workItem from="1499191813799" duration="168000" />
       <workItem from="1499620771286" duration="671000" />
       <workItem from="1500021024920" duration="220000" />
-      <workItem from="1500033566862" duration="7000" />
+      <workItem from="1500033566862" duration="70000" />
+      <workItem from="1500037394468" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1488230448756</created>
@@ -266,11 +249,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500021496809</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added dynamically created button in new UIView-Controller-class.">
+      <created>1500033611377</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1500033611377</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9726000" />
+    <option name="totallyTimeSpent" value="9811000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -286,11 +276,11 @@
     <editor active="false" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21745351" sideWeight="0.49209487" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22031474" sideWeight="0.49209487" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893" sideWeight="0.75107294" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893" sideWeight="0.2553648" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32893" sideWeight="0.7439199" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35799208" sideWeight="0.7439199" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14306152" sideWeight="0.49209487" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893" sideWeight="0.75178826" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893" sideWeight="0.25608012" order="10" side_tool="true" content_ui="tabs" />
@@ -335,7 +325,8 @@
     <MESSAGE value="Completed UI layout." />
     <MESSAGE value="Completed UI Connection to code." />
     <MESSAGE value="Completed Resource Handling and ImagePickerController." />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Resource Handling and ImagePickerController." />
+    <MESSAGE value="Added dynamically created button in new UIView-Controller-class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added dynamically created button in new UIView-Controller-class." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -346,9 +337,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1500032053000" expanded="true" signature="5820:6203" ph="/*...*/" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -364,9 +353,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1500032053000" expanded="true" signature="5820:6203" ph="/*...*/" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -382,9 +369,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1500032053000" expanded="true" signature="5820:6203" ph="/*...*/" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoundBoard/de.mayflower.soundboard/SoundBoardSecondViewController.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoundBoard/de.mayflower.soundboard/SoundBoardFirstViewController.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -406,9 +407,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding>
-            <marker date="1500032053000" expanded="true" signature="5820:6203" ph="/*...*/" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -438,9 +437,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding>
-            <marker date="1500032053000" expanded="true" signature="5820:6203" ph="/*...*/" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -470,9 +467,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding>
-            <marker date="1500032053000" expanded="true" signature="5820:6203" ph="/*...*/" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -487,7 +482,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -509,7 +503,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
           <caret line="89" column="34" lean-forward="true" selection-start-line="89" selection-start-column="34" selection-end-line="89" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -537,11 +530,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SoundBoard/de.mayflower.soundboard/SoundBoardFirstViewController.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <marker date="1500032053000" expanded="true" signature="5820:6203" ph="/*...*/" />
-          </folding>
+        <state relative-caret-position="182">
+          <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>

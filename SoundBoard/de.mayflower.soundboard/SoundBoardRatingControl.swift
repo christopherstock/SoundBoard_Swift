@@ -7,9 +7,22 @@
     *   @author  Christopher Stock
     *   @version 0.0.1
     *******************************************************************************************************************/
-    class SoundBoardRatingControl: UIStackView
+    @IBDesignable class SoundBoardRatingControl: UIStackView
     {
         //MARK: Properties
+
+        @IBInspectable var starSize: CGSize = CGSize(width: 44.0, height: 44.0) {
+            didSet {
+                setupButtons()
+            }
+        }
+        
+        @IBInspectable var starCount: Int = 5 {
+            didSet {
+                setupButtons()
+            }
+        }
+
         private var ratingButtons = [UIButton]();
         
         internal var rating = 0;
@@ -32,28 +45,48 @@
         
         //MARK: Private Methods
 
+        private func clearExistingButtons()
+        {
+            // clear any existing buttons
+            for button in ratingButtons {
+                removeArrangedSubview(button)
+                button.removeFromSuperview()
+            }
+            ratingButtons.removeAll()
+        }
+        
         private func setupButtons()
         {
-            // Create the button
-            let button = UIButton()
-            button.backgroundColor = UIColor.red
+            clearExistingButtons();
             
-            // Add constraints
-            button.translatesAutoresizingMaskIntoConstraints = false
-            button.heightAnchor.constraint(equalToConstant: 44.0).isActive = true
-            button.widthAnchor.constraint(equalToConstant: 44.0).isActive = true
+            for _ in 0..<starCount
+            {
+                // Create the button
+                let button = UIButton()
+                button.backgroundColor = UIColor.red
             
-            // Setup the button action
-            button.addTarget(
-                self,
-                action: #selector(
-                    SoundBoardRatingControl.ratingButtonTapped(button:)
-                ),
-                for: .touchUpInside
-            );
+                // Add constraints
+                button.translatesAutoresizingMaskIntoConstraints = false
+                button.widthAnchor.constraint(equalToConstant: starSize.width).isActive = true
+                button.heightAnchor.constraint(equalToConstant: starSize.height).isActive = true
             
-            // Add the button to the stack
-            addArrangedSubview(button)
+                // Setup the button action
+                button.addTarget(
+                    self,
+                    action: #selector(
+                        SoundBoardRatingControl.ratingButtonTapped(button:)
+                    ),
+                    for: .touchUpInside
+                );
+            
+                // Add the new button to the rating button array
+                ratingButtons.append( button );
+                
+                // Add the button to the stack
+                addArrangedSubview( button )
+                
+                print( "Created button .." );
+            }
         }
         
         //MARK: Button Action
