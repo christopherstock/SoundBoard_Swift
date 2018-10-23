@@ -1,12 +1,12 @@
 
     import UIKit
 
-    /*******************************************************************************************************************
+    /**
     *   The second example view controller.
     *
     *   @author  Christopher Stock
     *   @version 0.0.1
-    *******************************************************************************************************************/
+    */
     @IBDesignable class SoundBoardRatingControl: UIStackView
     {
         //MARK: Properties
@@ -25,7 +25,7 @@
 
         private var ratingButtons = [UIButton]();
         
-        internal    var rating = 0 {
+        internal var rating = 0 {
             didSet {
                 updateButtonSelectionStates()
             }
@@ -33,30 +33,30 @@
         
         //MARK: Initialization
         
-        override init(frame: CGRect)
+        override init( frame:CGRect )
         {
-            super.init(frame: frame)
+            super.init(frame: frame);
             
             setupButtons();
         }
-        
-        required init(coder: NSCoder)
+
+        required init( coder:NSCoder )
         {
-            super.init(coder: coder)
+            super.init(coder: coder);
         
             setupButtons();
         }
-        
+
         //MARK: Private Methods
 
         private func clearExistingButtons()
         {
             // clear any existing buttons
             for button in ratingButtons {
-                removeArrangedSubview(button)
-                button.removeFromSuperview()
+                removeArrangedSubview(button);
+                button.removeFromSuperview();
             }
-            ratingButtons.removeAll()
+            ratingButtons.removeAll();
         }
         
         private func setupButtons()
@@ -64,10 +64,10 @@
             clearExistingButtons();
             
             // Load Button Images
-            let bundle = Bundle(for: type(of: self))
-            let filledStar = UIImage(named: "filledStar", in: bundle, compatibleWith: self.traitCollection)
-            let emptyStar = UIImage(named:"emptyStar", in: bundle, compatibleWith: self.traitCollection)
-            let highlightedStar = UIImage(named:"highlightedStar", in: bundle, compatibleWith: self.traitCollection)
+            let bundle = Bundle(for: type(of: self));
+            let filledStar = UIImage(named: "filledStar", in: bundle, compatibleWith: self.traitCollection);
+            let emptyStar = UIImage(named:"emptyStar", in: bundle, compatibleWith: self.traitCollection);
+            let highlightedStar = UIImage(named:"highlightedStar", in: bundle, compatibleWith: self.traitCollection);
             
             for index in 0..<starCount
             {
@@ -90,8 +90,6 @@
             
                 // Set the accessibility label
                 button.accessibilityLabel = "Set \(index + 1) star rating"
-                
-                
                 
                 // Setup the button action
                 button.addTarget(
@@ -134,9 +132,6 @@
                 // Otherwise set the rating to the selected star
                 rating = selectedRating
             }
-            
-            
-            
         }
         
         private func updateButtonSelectionStates() {
@@ -168,5 +163,4 @@
                 button.accessibilityValue = valueString                
             }
         }
-        
     }
